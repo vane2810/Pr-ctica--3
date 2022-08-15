@@ -10,7 +10,7 @@ namespace Práctica_3._4
             bool condition = true;
             int cont = 0;
 
-            Console.WriteLine("Ingrese el número de repeticiones que desea: ");
+            Console.WriteLine("Ingrese el número de repetiiones que desea : ");
             int limite = int.Parse(Console.ReadLine());
 
             while (condition)
