@@ -16,7 +16,7 @@ namespace Práctica_3._4
             while (condition)
             {
                 if (cont == limite)
-                    condition = false;
+                    condition = false; 
 
                 Console.WriteLine(cont);
                 cont++;
