@@ -8,9 +8,9 @@ namespace Práctica_3._6
         {
             int num1, num2;
             // Captura de datos desde consola
-            Console.WriteLine("Introduzaca un número: ");
+            Console.WriteLine("Introduzca un número: ");
             num1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Introduzaca otro número: ");
+            Console.WriteLine("Introduzca otro número: ");
             num2 = int.Parse(Console.ReadLine());
             //Llamadas de funciones locales
             Console.WriteLine("La suma es: " + Suma(num1, num2));
