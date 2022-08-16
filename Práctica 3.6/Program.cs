@@ -17,7 +17,7 @@ namespace Práctica_3._6
             Console.WriteLine("La resta es: " + Resta(num1, num2));
             Console.WriteLine("La multiplicación es: " + Multi(num1, num2));
             Console.WriteLine("La división es: " + Div(num1, num2));
-
+             
         }
 
         //Función con variable return
