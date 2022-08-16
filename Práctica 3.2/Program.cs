@@ -6,13 +6,11 @@ namespace Práctica_3._2
     {
         static void Main(string[] args)
         {
-            string a = "";
-            do
-            {
-                Console.WriteLine("Ingrese un número:");
-                int option = int.Parse(Console.ReadLine());
+            
+            Console.WriteLine("Ingrese un número:");
+            int option = int.Parse(Console.ReadLine());
 
-                switch (option)
+            switch (option)
                 {
                     case 1:
                         Console.WriteLine("Eligió la opción {0}", option);
@@ -38,14 +36,8 @@ namespace Práctica_3._2
                         Console.WriteLine("Está opción no existe");
                         break;
 
-                }
-                Console.WriteLine("¿Desea continuar?" , 
-                    "1. Sí" , 
-                    "2. No");
-
-                a = Console.ReadLine();
             }
-            while (a == "1" || a == "1");
+                
         }
     }
 }
