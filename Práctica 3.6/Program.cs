@@ -2,7 +2,7 @@
 
 namespace Práctica_3._6
 {
-    class Program
+    class Program 
     {
         static void Main(string[] args)
         {
